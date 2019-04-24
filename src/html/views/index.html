@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title><%= htmlWebpackPlugin.options.title %></title>
+        ${require('html-loader?interpolate!../includes/head.html')}
+    </head>
+    <body>
+        ${require('html-loader?interpolate!../includes/header-nav.html')}
+        ${require('html-loader?interpolate!../main/index.html')}
+        ${require('html-loader?interpolate!../includes/footer.html')}
+        ${require('html-loader?interpolate!../includes/poppup.html')}
+    </body>
+</html>

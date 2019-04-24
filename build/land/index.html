@@ -1,0 +1,1141 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title><%= htmlWebpackPlugin.options.title }</title>
+        <meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<!----------------- OG Tags ----------------->
+<meta property="og:title" content="" />
+<meta property="og:description" content="" />
+<meta property="og:type" content="article" />
+<meta property="og:image" content="" />
+<meta property="og:site_name" content="" />
+<link rel="shortcut icon" href="favicon/favicon.ico" />
+
+
+    <link href="/1.8248.css" rel="stylesheet"><link href="/4.d793.css" rel="stylesheet"></head>
+    <body>
+        <!-- SIGN UP -->
+<div class="body-poppup-sign d-none">
+    <div class="popup sign-up">
+        <div class="sign-up__cont poppup__container">
+            <img
+                src="/images/close.16c4.svg"
+                alt="Close"
+                class="create-acc__close close"
+            />
+            <h3 class="sign-up__title poppup__title">Sign Up</h3>
+            <a href="#" class="sign-up__btn-one poppup__btn">Buyer</a>
+            <p class="sign-up__text poppup__text text-center">or</p>
+            <a href="#" class="sign-up__btn-two poppup__btn poppup__btn-last"
+                >Supplier</a
+            >
+        </div>
+    </div>
+</div>
+
+<!-- SIGN UP with Accounts -->
+<div class="body-poppup-sign-acc d-none">
+    <div class="popup sign-acc">
+        <div class="sign-acc__wrap poppup__container">
+            <img
+                src="/images/close.16c4.svg"
+                alt="Close"
+                class="create-acc__close close"
+            />
+            <h3 class="sign-acc__title poppup__title">Sign Up</h3>
+            <ul class="sign-acc__items">
+                <li class="sign-acc__item btn-lnkdn d-flex">
+                    <img src="/images/LinkedIn.a7d3.svg" alt="Linkedin" />
+                    <a class="sign-acc__btn poppup__btn"
+                        >Continue with Linkedin</a
+                    >
+                </li>
+                <li class="sign-acc__item btn-goo d-flex">
+                    <img src="/images/google.0274.svg" alt="Google" />
+                    <a class="sign-acc__btn poppup__btn"
+                        >Continue with Google</a
+                    >
+                </li>
+                <li class="sign-acc__item btn-chat d-flex">
+                    <img src="/images/wechat.a859.svg" alt="Wechat" />
+                    <a class="sign-acc__btn poppup__btn"
+                        >Continue with Wechat</a
+                    >
+                </li>
+                <li class="sign-acc__item btn-baidu d-flex">
+                    <img src="/images/baidu.21b1.svg" alt="Baidu" />
+                    <a class="sign-acc__btn poppup__btn">Continue with Baidu</a>
+                </li>
+                <li class="sign-acc__item poppup__text d-flex">
+                    or
+                </li>
+                <li class="sign-acc__item btn-email d-flex">
+                    <img src="/images/email.eaaa.svg" alt="Email" />
+                    <a class="sign-acc__btn poppup__btn">Sign up with email</a>
+                </li>
+                <li class="sign-acc__item d-flex sign-acc__sign-in">
+                    <a href="#" class="poppup-sign-in">Sign in</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<!-- SIGN IN  with Accounts -->
+<div class="body-poppup-sign-in  d-none">
+    <div class="popup sign-in">
+        <div class="sign-in__wrap poppup__container">
+            <img
+                src="/images/close.16c4.svg"
+                alt="Close"
+                class="create-acc__close close"
+            />
+            <h3 class="sign-in__title poppup__title">Sign In</h3>
+            <ul class="sign-in__items">
+                <li class="sign-in__item btn-lnkdn d-flex">
+                    <img src="/images/LinkedIn.a7d3.svg" alt="Linkedin" />
+                    <a class="sign-in__btn poppup__btn btn-lnkdn"
+                        >Continue with Linkedin</a
+                    >
+                </li>
+                <li class="sign-in__item btn-goo d-flex">
+                    <img src="/images/google.0274.svg" alt="Google" />
+                    <a class="sign-in__btn poppup__btn btn-goo"
+                        >Continue with Google</a
+                    >
+                </li>
+                <li class="sign-in__item btn-chat d-flex">
+                    <img src="/images/wechat.a859.svg" alt="Wechat" />
+                    <a class="sign-in__btn poppup__btn btn-chat"
+                        >Continue with Wechat</a
+                    >
+                </li>
+                <li class="sign-in__item btn-baidu d-flex">
+                    <img src="/images/baidu.21b1.svg" alt="Baidu" />
+                    <a class="sign-in__btn poppup__btn btn-baidu"
+                        >Continue with Baidu</a
+                    >
+                </li>
+                <li class="sign-in__item poppup__text d-flex">
+                    or
+                </li>
+            </ul>
+            <form class="sign-in__form  poppup__form">
+                <p class="poppup__form-text">Email adress</p>
+                <input
+                    type="email"
+                    class="poppup__form-input"
+                    placeholder="Enter Email"
+                />
+                <p class="poppup__form-text">Password</p>
+                <input
+                    type="password"
+                    class="poppup__form-input"
+                    placeholder="Enter Password"
+                />
+                <div class="poppup__form-wrap d-flex">
+                    <input type="checkbox" class="poppup__form-check" />
+                    <a href="#" class="poppup__form-check-text">
+                        Remember me
+                    </a>
+                    <a href="#" class="poppup__form-forgot">
+                        Forgot Password?
+                    </a>
+                </div>
+                <a
+                    href="#"
+                    class="poppup__form-submit poppup__btn"
+                    type="submit"
+                    >Submin</a
+                >
+                <a href="#" class="poppup-sign-in poppup__form-sign-up">Sign Up</a>
+            </form>
+        </div>
+    </div>
+</div>
+
+<!-- PASSWORD -->
+<div class="body-poppup-pass d-none">
+    <div class="popup sign-pass">
+        <div class="sign-pass__wrap poppup__container">
+            <img
+                src="/images/close.16c4.svg"
+                alt="Close"
+                class="sign-pass__close close"
+            />
+            <h3 class="sign-pass__title poppup__title">Forgot Password</h3>
+            <form class="sign-pass__form poppup__form">
+                <p class="poppup__form-text">Email adress</p>
+                <input
+                    type="email"
+                    class="poppup__form-input  input-mail"
+                    placeholder="Enter Email"
+                />
+                <p class="sign-pass__error text-left d-none">
+                    Email address not found.
+                </p>
+                <a href="#" class="sign-pass__subm poppup__btn" type="submit"
+                    >Submin</a
+                >
+                <a href="#" class="sign-pass__up poppup-sign-in">Sign In</a>
+            </form>
+        </div>
+    </div>
+</div>
+
+<!-- BOOKMARK -->
+<div class="body-poppup-bookmark d-none">
+    <div class="popup bookmark">
+        <div class="bookmark__wrap poppup__container">
+            <img
+                src="/images/close.16c4.svg"
+                alt="Close"
+                class="bookmark__close close"
+            />
+            <img
+                src="/images/marc.4b2b.svg"
+                class="bookmark__img poppup__img"
+                alt="Mark"
+            />
+            <h3 class="bookmark__title poppup__title">Bookmark</h3>
+            <p class="bookmark__added text-center">
+                Added:
+                <span>(</span>
+                <span class="bookmark__numb">15564</span>
+                <span>)</span>
+            </p>
+            <form class="bookmark__form poppup__form">
+                <p class="poppup__form-text">Email adress</p>
+                <input
+                    type="email"
+                    class="poppup__form-input"
+                    placeholder="Enter Email"
+                />
+                <a href="#" class="bookmark__subm poppup__btn" type="submit"
+                    >Submin</a
+                >
+            </form>
+        </div>
+    </div>
+</div>
+
+<!-- QR CODE  -->
+<div class="body-poppup-qr d-none">
+    <div class="popup qr">
+        <div class="qr__wrap poppup__container">
+            <img
+                src="/images/close.16c4.svg"
+                alt="Close"
+                class="qr__close close"
+            />
+            <img
+                src="/images/qr-code.1b22.svg"
+                class="qr__img poppup__img"
+                alt="Mark"
+            />
+            <h3 class="qr__title poppup__title">QR code</h3>
+            <p class="qr__added text-center">
+                Scanned:
+                <span>(</span>
+                <span class="qr__numb">15564</span>
+                <span>)</span>
+            </p>
+            <p class="qr__text text-center">
+               Shaanxi Dacheng International Trade Co Limited
+            </p>
+            <img
+                src="/images/qr-code-big.def1.svg"
+                class="qr__img-big"
+                alt="Mark"
+            />
+        </div>
+    </div>
+</div>
+    
+        <header class="header" id="header">
+  <div class="container">
+    <div class="header__wrap d-flex">
+      <div class="header__logo d-flex">
+        <a href="#">
+          <img src="/images/logo.fa08.png" alt="Manufacturing China"/>
+        </a>
+        <p>Manufacturing China</p>
+      </div>
+      <nav class="d-flex">
+        <div class="menuToggle"> 
+          <img src="/images/close2.f9e5.svg" class="menuToggle__close"></img>
+          <img src="/images/burger.51be.svg" alt="Menu" />
+        </div>
+        <ul class="nav menu d-flex"> 
+          <div class="item__wrap-log d-none">
+              <img class="nav-item__logo" src="/images/logo.fa08.png" alt="Logo">
+          </div>
+          <li class="nav-item">
+            <button
+              href="#"
+              target="_blank"
+              data-toggle="modal"
+              data-target="#exampleModalCenter"
+              rel="noopener noreferrer"
+              class="btn-green nav-link btn btn-primary"
+            >
+              Create free account
+            </button>
+          </li>
+          <li class="nav-item">
+            <button
+              href="http://#"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="nav-link btn-white"
+            >
+              Login
+            </button>
+          </li>
+        </ul>
+      </nav>
+      <ul class="header__multilanguage d-flex">
+        <li class="multilanguage-item multilanguage-item-current multilanguage-item_en text-center">
+            <a href="#">En</a>
+        </li>
+        <li class="multilanguage-item multilanguage-item_ru d-none text-center">
+          <a href="#">Ru</a>
+        </li>
+        <li class="multilanguage-item multilanguage-item_Is d-none text-center">
+          <a href="#">Is</a>
+        </li>
+        <li class="multilanguage-item multilanguage-item_De d-none text-center">
+          <a href="#">De</a>
+        </li>
+        <li class="multilanguage-item multilanguage-item_Fr d-none text-center">
+          <a href="#">Fr</a>
+        </li>
+      </ul>
+    </div>
+    <!-- Arctic Modal-------------------------------------------->
+    <div
+      class="create-acc modal fade d-none"
+      id="exampleModalCenter"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="exampleModalCenterTitle"
+      aria-hidden="true"
+    >
+      <div class="create-acc__wrap d-flex">
+        <form action="#" class="create-acc__reg d-flex form">
+          <img
+            src="/images/close.16c4.svg"
+            alt="Close"
+            class="create-acc__close close d-none"
+          />
+          <div class="create-acc__container text-left">
+            <h3 class="create-acc__title text-center">
+              Start creating immediately
+            </h3>
+            <p class="create-acc__under text-center">
+              Search and connect with qualified suppliers in China
+            </p>
+            <p class="form__titles create-acc__company">Company Name</p>
+            <input
+              type="text"
+              class="form__input form__company"
+              name="text"
+              placeholder="Enter Company Name"
+              required
+            />
+            <div class="create-acc__name-wrap d-flex">
+              <div class="create-acc__name">
+                <p class="form__titles form__text-name">
+                  First Name
+                </p>
+                <input
+                  type="text"
+                  class="form__input form__name"
+                  name="text"
+                  placeholder="Enter First Name"
+                  required
+                />
+              </div>
+              <div class="create-acc__name-last">
+                <p class="form__text-name">
+                  Last Name
+                </p>
+                <input
+                  type="text"
+                  class="form__input form__name-last"
+                  name="text"
+                  placeholder="Enter Last Name"
+                  required
+                />
+              </div>
+            </div>
+            <p class="form__titles create-acc__mail">
+              Email Addres
+            </p>
+            <input
+              type="email"
+              class="form__input form__mail"
+              name="email"
+              placeholder="Enter Email Adress"
+              required
+            />
+            <p class="form__titles create-acc__pass">
+              Password
+            </p>
+            <input
+              type="password"
+              class="form__input form__pass"
+              name="password"
+              placeholder="Enter Password"
+              required
+            />
+            <p class="form__titles create-acc__check">
+              Password must be at least 7 characters
+            </p>
+            <button class="form__btn" type="submit">Create Account</button>
+            <p class="create-acc__agree text-center">
+              By clicking 'Create Account' you agree to our
+              <a href="#" class="create-acc__agree-link"
+                >Terms, Privacy Policy</a
+              >
+              and
+              <a href="#" class="create-acc__agree-linktwo">Security Policy</a>
+            </p>
+          </div>
+        </form>
+        <!-- ---------------------FEATURES =--------------->
+        <div class="features">
+          <div class="features__container">
+            <img
+              src="/images/close.16c4.svg"
+              alt="Close"
+              class="features__close close"
+            />
+            <h3 class="features__title text-center">Features & Benefits</h3>
+            <p class="features__under-tit text-center">
+              Get unlimited free access to curated and verified suppliers in
+              China
+            </p>
+            <ul class="features__items">
+              <li class="features__item">
+                Research suppliers by tradeshows exhibited, exports, equipment,
+                business credit and more...
+              </li>
+              <li class="features__item">
+                Bookmark and connect to verified suppliers
+              </li>
+              <li class="features__item">
+                Search up to 2,500,000 suppliers
+              </li>
+              <li class="features__item">
+                Recommendation engine to assist in finding best suppliers for
+                your project
+              </li>
+            </ul>
+            <div class="features__member d-flex">
+              <div class="features__member-icon">
+                <img src="/images/form-memb.a15e.svg" alt="member" />
+              </div>
+              <div class="features__member-text">
+                <p class="features__member-desc text-left">
+                  “Let’s get one thing straight, this theme’s a straight-up
+                  winner. No posers here, just beautiful design and code.”
+                </p>
+                <a href="#" class="features__member-name text-left">
+                  Daniel Cameron
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+
+        <section class="main-land">
+    <div class="container">
+        <div class="main-land__wrap d-flex">
+            <div class="main-land__titles">
+                <h2 class="main-land__title text-left">
+                    Ready, Set, Grow.
+                </h2>
+                <p class="main-land__text text-left">
+                    A new platform offering buyers and suppliers a better way to
+                    connect for B2B business.
+                </p>
+                <a href="#" class="main-land__btn text-center">
+                    Get started now
+                </a>
+            </div>
+            <div class="main-land__img">
+                <img
+                    src="/images/main-land.7506.svg"
+                    alt="Buyer-Land"
+                    class="main-land__image"
+                />
+            </div>
+        </div>
+    </div>
+</section>
+<!--------------------- PARTNERS ---------->
+<section class="partners">
+     <div class="container">
+          <div class="partners__wrap">
+               <h3 class="partners__title text-center">Our Partners</h3>
+               <div class="partners__items d-flex">
+                    <div class="partners__elem">
+                         <img src="/images/3a.4b98.svg" alt="3A Credit">
+                    </div>
+                    <div class="partners__elem">
+                         <img src="/images/verify.7a6d.svg" alt="Verify">
+                    </div>
+                    <div class="partners__elem">
+                         <img src="/images/wechat-pay.828a.svg" alt="Wechat Pay">
+                    </div>
+                    <div class="partners__elem">
+                         <img src="/images/nventions.1aa6.svg" alt="Nventions">
+                    </div>
+               </div>
+          </div>
+     </div>
+</section>
+
+        <section class="steps">
+    <div class="container">
+        <p class="steps__text-steps text-center">
+            <span>3</span> EASY STEPS
+        </p>
+        <h2 class="steps__title text-center">
+            Build Trust, Earn Customers
+        </h2>
+        <p class="steps__text text-center">
+            Great clients do not come easy, earning clients can take time, add
+            content earn trust.
+        </p>
+        <div class="steps__wrap d-flex">
+            <div class="steps__img">
+                <img
+                    src="/images/steps-img.c079.svg"
+                    alt="Build Listing Profile"
+                />
+            </div>
+            <div class="steps__elems">
+                <div class="elem-step elems__build text-left">
+                    <div class="elem-step__container">
+                        <a href="#" class="elem-step__link elems__build-link">
+                            Build Listing Profile
+                        </a>
+                        <p class="elem-step__text elems__build-text">
+                            Add details to your report for new customers to
+                            learn about your company.
+                        </p>
+                    </div>
+                </div>
+                <div class="elem-step elems__recomend text-left">
+                    <div class="elem-step__container">
+                        <a
+                            href="#"
+                            class="elem-step__link elems__recomend-link"
+                        >
+                            Get Recommended
+                        </a>
+                        <p class="elem-step__text elems__recomend-text">
+                            Add keyword tags about your company so that you can
+                            be found easy from global buyers.
+                        </p>
+                    </div>
+                </div>
+                <div class="elem-step elems__business text-left">
+                    <div class="elem-step__container">
+                        <a
+                            href="#"
+                            class="elem-step__link elems__business-link"
+                        >
+                            Grow Your Business
+                        </a>
+                        <p class="elem-step__text elems__business-text">
+                            Find new opportunities based on your business
+                            capability and earned trust.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+        <section class="create">
+    <div class="container">
+        <p class="create__how-to text-center">
+            HOW TO SIGNUP
+        </p>
+        <h2 class="create__main-title text-center">
+            Create a free listing page
+        </h2>
+        <p class="create__main-text text-center">
+            Promote your products and services to the rest of the world for
+            free.
+        </p>
+        <div class="create__wrap d-flex">
+            <div class="create__section create__free">
+                <div class="create__container">
+                    <div class="create__image create__free-img">
+                        <img
+                            src="/images/acc-memb.4d2e.svg"
+                            alt="Free Account"
+                        />
+                    </div>
+                    <h3 class="create__title create__free-title text-center">
+                        Free Account
+                    </h3>
+                    <p class="create__text create__free-text text-center">
+                        Create your free listing page, create tags and let us
+                        promote your company for free. No pressure to upgrade
+                        your free business account!
+                    </p>
+                    <div class="create__wrap create__free-wrap free__wrap">
+                        <div class="wrap-container d-flex">
+                            <div class="create__wrap-img free__wrap-img">
+                                <img
+                                    src="/images/privacy.c943.svg"
+                                    alt="Get Verified"
+                                />
+                            </div>
+                            <div class="create__wrap-text free__wrap-text">
+                                <p class="create__wrap-title free__wrap-title">
+                                    Get Verified
+                                </p>
+                                <p
+                                    class="create__wrap-under-title free__wrap-under-title"
+                                >
+                                    Build and enhance your company report to
+                                    earn trust from global B2B customers.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="create__wrap free__wrap">
+                        <div class="wrap-container d-flex">
+                            <div class="create__wrap-img free__wrap-img">
+                                <img
+                                    src="/images/time.34a7.svg"
+                                    alt="Build Profile"
+                                />
+                            </div>
+                            <div class="create__wrap-text free__wrap-text">
+                                <p class="create__wrap-title free__wrap-title">
+                                    Build Profile
+                                </p>
+                                <p
+                                    class="create__wrap-under-title free__wrap-under-title"
+                                >
+                                    Add pictures and tags to enhance your
+                                    business profile.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="create__section create__upgrade">
+                <div class="create__container">
+                    <div class="create__image create__upg-img">
+                        <img
+                            src="/images/trophy.ab05.svg"
+                            alt="Upgraded Account"
+                        />
+                    </div>
+                    <h3 class="create__title create__upgrade-title text-center">
+                        Upgraded Account
+                    </h3>
+                    <p class="create__text create__upgrade-text text-center">
+                        Use our features to promote your products to new
+                        clients. Get daily analytics on customers inviting you
+                        to bid on their projects.
+                    </p>
+                    <div class="create__wrap create__upgrade-wrap">
+                        <div class="wrap-container d-flex">
+                            <div class="create__wrap-img create__upgrade-img">
+                                <img
+                                    src="/images/credit-card.cc0f.svg"
+                                    alt="Payment"
+                                />
+                            </div>
+                            <div class="create__wrap-text create__upgrade-text">
+                                <p
+                                    class="create__wrap-title create__upgrade-title"
+                                >
+                                    Payment
+                                </p>
+                                <p
+                                    class="create__wrap-under-title create__upgrade-under-title"
+                                >
+                                    Pay with ease online with WeChat Pay.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="create__wrap create__upgrade-wrap">
+                        <div class="wrap-container d-flex">
+                            <div class="create__wrap-img create__upgrade-img">
+                                <img
+                                    src="/images/world-wide-web.52f3.svg"
+                                    alt="world wide"
+                                />
+                            </div>
+                            <div class="create__wrap-text create__upgrade-world">
+                                <p
+                                    class="create__wrap-title create__upgrade-title"
+                                ></p>
+                                <p
+                                    class="create__wrap-under-title create__upgrade-under-title"
+                                >
+                                    Another brief description of a facet that,
+                                    as before, doesn't need to go into great
+                                    detail.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+        <!-- introducing-------------------------- -->
+        <section class="introducing">
+            <div class="container">
+                <h3 class="introducing__title text-center">
+                    Introducing a new way
+                </h3>
+                <p class="introducing__text text-center">
+                    An opportunity to introduce the major benefits of your
+                    product and set the scene for what's to come
+                </p>
+                <a href="#" class="introducing__btn text-center">
+                    View more features
+                </a>
+            </div>
+        </section>
+        
+        <!-- LAND CUSTOMERS-------------------------- -->
+        <section class="land-customers customers">
+            <div class="container">
+                <h3 class="land-customers__title text-center">
+                    Don’t wait, sign up now for a 30 day trial.
+                </h3>
+                <div class="customers__items d-flex">
+    <div class="customers__item d-flex">
+        <a href="#">
+            <img
+                src="/images/custommers.07cf.svg"
+                alt="custommer"
+                class="customer__item_photo"
+            />
+        </a>
+        <div class="customer__item_wrap  d-flex">
+            <p class="customer__item_text">
+                Let’s get one thing straight, this theme’s a straight-up winner.
+                No posers here, just beautiful design and code.
+            </p>
+            <a href="#" class="customer__item_name">
+                Daniel Cameron
+            </a>
+        </div>
+    </div>
+    <div class="customers__item d-flex">
+        <a href="#">
+            <img
+                src="/images/custommers2.5c0f.svg"
+                alt="custommer"
+                class="customer__item_photo"
+            />
+        </a>
+        <div class="customer__item_wrap d-flex">
+            <p class="customer__item_text">
+                With Wingman, we were able to turn out a stunning landing page
+                and compelling MVP for our SaaS web app in no time.
+            </p>
+            <a href="#" class="customer__item_name">
+                Caitlyn Halsy, Bench
+            </a>
+        </div>
+    </div>
+    <div class="customers__item d-flex">
+        <a href="#">
+            <img
+                src="/images/custommers3.5682.svg"
+                alt="custommer"
+                class="customer__item_photo"
+            />
+        </a>
+        <div class="customer__item_wrap">
+            <p class="customer__item_text">
+                Not only has it allowed us to get our product into the hands of
+                customers quickly - it’s also saved us a ton of money.
+            </p>
+            <a href="#" class="customer__item_name">
+                Toby Marsh, Movend
+            </a>
+        </div>
+    </div>
+    <div class="customers__item d-flex">
+        <a href="#">
+            <img
+                src="/images/custommers4.95d0.svg"
+                alt="custommer"
+                class="customer__item_photo"
+            />
+        </a>
+        <div class="customer__item_wrap">
+            <p class="customer__item_text">
+                Using other templates just doesn’t feel the same anymore - none
+                have the polish and intuitive design of Wingman
+            </p>
+            <a href="#" class="customer__item_name">
+                Lucille Freebody, Product Designer
+            </a>
+        </div>
+    </div>
+</div>
+
+            </div>
+        </section>
+        <footer>
+    <div class="footer-container">
+        <ul class="addr d-flex">
+            <li>
+                <a href="http://#" target="_blank" rel="noopener noreferrer"
+                    >Verified >>
+                </a>
+            </li>
+            <li>
+                <a href="http://#" target="_blank" rel="noopener noreferrer"
+                    >Trusted Manufacturing</a
+                >
+            </li>
+        </ul>
+        <div class="footer__nav">
+            <div class="accordion d-flex">
+                <div class="accordion-wrap accordion-wrap-one">
+                    <div class="accordion-header ui-accordion-header">
+                        <h4 class="accordion__title accordion__title-one">
+                            Search China Suppliers Tradeshow
+                            <span class="d-none">>></span>
+                        </h4>
+                    </div>
+                    <div class="accordion-my accordion-content">
+                        <ul class="accordion__items accordion__items-one">
+                            <li>
+                                <a
+                                    href="http://#"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    >Consumer Electronics Show (CES)</a
+                                >
+                            </li>
+                            <li>
+                                <a
+                                    href="http://#"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    >AHR Expo</a
+                                >
+                            </li>
+                            <li>
+                                <a
+                                    href="http://#"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    >Canton Fair</a
+                                >
+                            </li>
+                            <li>
+                                <a
+                                    href="http://#"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    >American International Tradefair</a
+                                >
+                            </li>
+                            <li>
+                                <a
+                                    href="http://#"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    >International Housewares</a
+                                >
+                            </li>
+                            <li>
+                                <a
+                                    href="http://#"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    >International Security Conference West</a
+                                >
+                            </li>
+                            <li>
+                                <a
+                                    href="http://#"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    >American International Tradefair</a
+                                >
+                            </li>
+                            <li>
+                                <a
+                                    href="http://#"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    >National Hardware Show</a
+                                >
+                            </li>
+                            <li>
+                                <a
+                                    href="http://#"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    >National Restaurant Show</a
+                                >
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="accordion-wrap accordion-wrap-two">
+                    <div class="accordion-header">
+                        <h4 class="accordion__title accordion__title-two">
+                            Search China Manufacturers City
+                            <span class="d-none">>></span>
+                        </h4>
+                    </div>
+                    <div class="accordion-my accordion-content">
+                        <ul class="accordion__items accordion__items-two">
+                            <li>
+                                <a
+                                    href="http://#"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    >Fuzhou</a
+                                >
+                            </li>
+                            <li>
+                                <a
+                                    href="http://#"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    >Guangzhou</a
+                                >
+                            </li>
+                            <li>
+                                <a
+                                    href="http://#"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    >Hangzhou</a
+                                >
+                            </li>
+                            <li>
+                                <a
+                                    href="http://#"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    >Suzhou</a
+                                >
+                            </li>
+                            <li>
+                                <a
+                                    href="http://#"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    >Wuxi</a
+                                >
+                            </li>
+                            <li>
+                                <a
+                                    href="http://#"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    >Shenzhen</a
+                                >
+                            </li>
+                            <li>
+                                <a
+                                    href="http://#"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    >Ningbo</a
+                                >
+                            </li>
+                            <li>
+                                <a
+                                    href="http://#"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    >Beijing</a
+                                >
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="accordion-wrap accordion-wrap-three">
+                    <div class="accordion-header">
+                        <h4 class="accordion__title accordion__title-three">
+                            China Manufacturers
+                            <span class="d-none">>></span>
+                        </h4>
+                    </div>
+                    <div class="accordion-my accordion-content">
+                        <ul class="accordion__items accordion__items-third">
+                            <li>
+                                <a
+                                    href="http://#"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                >
+                                    China Sewing Factories
+                                </a>
+                            </li>
+                            <li>
+                                <a
+                                    href="http://#"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                >
+                                    China Plastic Injection
+                                </a>
+                            </li>
+                            <li>
+                                <a
+                                    href="http://#"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                >
+                                    China CNC Manufacturers
+                                </a>
+                            </li>
+                            <li>
+                                <a
+                                    href="http://#"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                >
+                                    China Electronics Manufacturers
+                                </a>
+                            </li>
+                            <li>
+                                <a
+                                    href="http://#"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                >
+                                    PCB Suppliers in China
+                                </a>
+                            </li>
+                            <li>
+                                <a
+                                    href="http://#"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                >
+                                    Consumer Goods Manufacturers
+                                </a>
+                            </li>
+                            <li>
+                                <a
+                                    href="http://#"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                >
+                                    Sporting Goods Manufacturers
+                                </a>
+                            </li>
+                            <li>
+                                <a
+                                    href="http://#"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                >
+                                    China Toy Manufacturers
+                                </a>
+                            </li>
+                            <li>
+                                <a
+                                    href="http://#"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                >
+                                    China Hardware Manufacturers
+                                </a>
+                            </li>
+                            <li>
+                                <a
+                                    href="http://#"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                >
+                                    Led Lighting Manufacturers
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="accordion-wrap accordion-wrap-four">
+                    <div class="accordion-header">
+                        <h4 class="accordion__title accordion__title-four">
+                            Company
+                            <span class="d-none">>></span>
+                        </h4>
+                    </div>
+                    <div class="accordion-my accordion-content">
+                        <ul class="accordion__items accordion__items-four">
+                            <li>
+                                <a
+                                    href="http://#"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                >
+                                    About company
+                                </a>
+                            </li>
+                            <li>
+                                <a
+                                    href="http://#"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                >
+                                    History
+                                </a>
+                            </li>
+                            <li>
+                                <a
+                                    href="http://#"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                >
+                                    Team
+                                </a>
+                            </li>
+                            <li>
+                                <a
+                                    href="http://#"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                >
+                                    Investment
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+<!----------------------FONT AWESOME=----------------- -->
+    <script type="text/javascript" src="/manifest.8f79.js"></script><script type="text/javascript" src="/vendors.e53f.js"></script><script type="text/javascript" src="/babel.2ce1.js"></script><script type="text/javascript" src="/land.b331.js"></script></body>
+</html>

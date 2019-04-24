@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title><%= htmlWebpackPlugin.options.title }</title>
+        ${require('html-loader?interpolate!../../includes/head.html') }
+    </head>
+    <body>
+        ${require('html-loader?interpolate!../../includes/poppup.html') }
+        ${require('html-loader?interpolate!../../includes/header-nav.html') }
+        ${require('html-loader?interpolate!../../land/first-desctop.html') }
+        ${require('html-loader?interpolate!../../land/steps.html') }
+        ${require('html-loader?interpolate!../../land/sign-up.html') }
+
+        <!-- introducing-------------------------- -->
+        <section class="introducing">
+            <div class="container">
+                <h3 class="introducing__title text-center">
+                    Introducing a new way
+                </h3>
+                <p class="introducing__text text-center">
+                    An opportunity to introduce the major benefits of your
+                    product and set the scene for what's to come
+                </p>
+                <a href="#" class="introducing__btn text-center">
+                    View more features
+                </a>
+            </div>
+        </section>
+        
+        <!-- LAND CUSTOMERS-------------------------- -->
+        <section class="land-customers customers">
+            <div class="container">
+                <h3 class="land-customers__title text-center">
+                    Don’t wait, sign up now for a 30 day trial.
+                </h3>
+                ${require('html-loader?interpolate!../../buyer/customers.html')
+                }
+            </div>
+        </section>
+        ${require('html-loader?interpolate!../../includes/footer.html') }
+    </body>
+</html>

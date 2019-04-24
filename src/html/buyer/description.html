@@ -1,0 +1,53 @@
+<section class="description">
+    <div class="container">
+        <div class="description__choice choice">
+            <a class="choice__text">registration</a>
+            <div class="choice__title">I am a</div>
+            <div class="choice__btns d-flex">
+                <a href="#" class="choice__btn choice__buyer">Buyer</a>
+                <a href="#" class="choice__btn choice__supplier">Supplier</a>
+            </div>
+        </div>
+        <div class="packet-items d-flex">
+            <div class="packet__item packet__free d-flex">
+                <p class="packet__item-title text-center">Free</p>
+                <p class="packet__item-value text-center">$0</p>
+                <p class="packet__item-mounth text-center">/mounth</p>
+                <p class="packet__item-text text-center">Includes:</p>
+                <p class="packet__item-descrip text-center">
+                    48 hour response 1 free credit report All Suppliers
+                </p>
+                <a href="#" class="packet__item-btn text-center">Sign Up Now</a>
+            </div>
+            <div class="packet__item packet__pro d-flex">
+                <p class="packet__item-title text-center">Pro</p>
+                <p class="packet__item-value text-center">$29</p>
+                <p class="packet__item-mounth text-center">/mounth</p>
+                <p class="packet__item-text text-center">Includes:</p>
+                <p class="packet__item-descrip text-center">
+                    24 hour response 5 credit reports /mo. Vetted Suppliers
+                </p>
+                <a href="#" class="packet__item-btn text-center">Sign Up Now</a>
+            </div>
+            <div class="packet__item packet__corp d-flex">
+                <p class="packet__item-title text-center">Corporate</p>
+                <p class="packet__item-value text-center">$49</p>
+                <p class="packet__item-mounth text-center">/mounth</p>
+                <p class="packet__item-text text-center">Includes:</p>
+                <p class="packet__item-descrip text-center">
+                    2 hour response 20 credit reports /mo. Curated & Verified
+                    Suppliers
+                </p>
+                <a href="#" class="packet__item-btn text-center">Sign Up Now</a>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="customers">
+    <div class="container">
+        <h2 class="customers__title text-center">
+            Hear it from our satisfied customers
+        </h2>
+        ${require('html-loader?interpolate!./customers.html') }
+    </div>
+</section>

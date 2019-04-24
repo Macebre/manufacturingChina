@@ -1,0 +1,202 @@
+<header class="header" id="header">
+  <div class="container">
+    <div class="header__wrap d-flex">
+      <div class="header__logo d-flex">
+        <a href="#">
+          <img src="~images/logo.png" alt="Manufacturing China"/>
+        </a>
+        <a href="#" class="header__logo-link">Manufacturing China</a>
+      </div>
+      <nav>
+        <div class="menuToggle d-none"> 
+          <img src="~images/close2.svg" class="menuToggle__close d-none"></img>
+          <img src="~images/burger.svg" alt="Menu" />
+        </div>
+        <ul class="menu d-flex"> 
+          <div class="item__wrap-log d-none">
+              <img class="nav-item__logo" src="~images/logo.png" alt="Logo">
+          </div>
+          <li class="nav-item">
+            <button
+              href="#"
+              target="_blank"
+              data-modal="#modal1"
+              data-toggle="modal"
+              data-target="#exampleModalCenter"
+              rel="noopener noreferrer"
+              class="btn-green  open-modal"
+            >
+              Create free account
+            </button>
+          </li>
+          <li class="nav-item">
+            <button
+              href="http://#"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="btn-white"
+            >
+              Login
+            </button>
+          </li>
+        </ul>
+      </nav>
+      <ul class="header__multilanguage d-flex">
+        <li class="multilanguage-item multilanguage-item-current multilanguage-item_en text-center">
+            <a href="#">En</a>
+        </li>
+        <li class="multilanguage-item multilanguage-item_ru d-none text-center">
+          <a href="#">Ru</a>
+        </li>
+        <li class="multilanguage-item multilanguage-item_Is d-none text-center">
+          <a href="#">Is</a>
+        </li>
+        <li class="multilanguage-item multilanguage-item_De d-none text-center">
+          <a href="#">De</a>
+        </li>
+        <li class="multilanguage-item multilanguage-item_Fr d-none text-center">
+          <a href="#">Fr</a>
+        </li>
+      </ul>
+    </div>
+    <!-- Modal-------------------------------------------->
+    <div
+      class="create-acc fade d-none"
+      id="exampleModalCenter"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="exampleModalCenterTitle"
+      aria-hidden="true"
+    >
+      <div class="create-acc__wrap d-flex">
+        <form action="#" class="create-acc__reg d-flex form">
+          <img
+            src="~images/close.svg"
+            alt="Close"
+            class="create-acc__close close d-none"
+          />
+          <div class="create-acc__container text-left">
+            <h3 class="create-acc__title text-center">
+              Start creating immediately
+            </h3>
+            <p class="create-acc__under text-center">
+              Search and connect with qualified suppliers in China
+            </p>
+            <p class="form__titles create-acc__company">Company Name</p>
+            <input
+              type="text"
+              class="form__input form__company"
+              name="text"
+              placeholder="Enter Company Name"
+              required
+            />
+            <div class="create-acc__name-wrap d-flex">
+              <div class="create-acc__name">
+                <p class="form__titles form__text-name">
+                  First Name
+                </p>
+                <input
+                  type="text"
+                  class="form__input form__name"
+                  name="text"
+                  placeholder="Enter First Name"
+                  required
+                />
+              </div>
+              <div class="create-acc__name-last">
+                <p class="form__text-name">
+                  Last Name
+                </p>
+                <input
+                  type="text"
+                  class="form__input form__name-last"
+                  name="text"
+                  placeholder="Enter Last Name"
+                  required
+                />
+              </div>
+            </div>
+            <p class="form__titles create-acc__mail">
+              Email Addres
+            </p>
+            <input
+              type="email"
+              class="form__input form__mail"
+              name="email"
+              placeholder="Enter Email Adress"
+              required
+            />
+            <p class="form__titles create-acc__pass">
+              Password
+            </p>
+            <input
+              type="password"
+              class="form__input form__pass"
+              name="password"
+              placeholder="Enter Password"
+              required
+            />
+            <p class="form__titles create-acc__check">
+              Password must be at least 7 characters
+            </p>
+            <button class="form__btn" type="submit">Create Account</button>
+            <p class="create-acc__agree text-center">
+              By clicking 'Create Account' you agree to our
+              <a href="#" class="create-acc__agree-link"
+                >Terms, Privacy Policy</a
+              >
+              and
+              <a href="#" class="create-acc__agree-linktwo">Security Policy</a>
+            </p>
+          </div>
+        </form>
+        <!-- ---------------------FEATURES =--------------->
+        <div class="features">
+          <div class="features__container">
+            <img
+              src="~images/close.svg"
+              alt="Close"
+              class="features__close close"
+            />
+            <h3 class="features__title text-center">Features & Benefits</h3>
+            <p class="features__under-tit text-center">
+              Get unlimited free access to curated and verified suppliers in
+              China
+            </p>
+            <ul class="features__items">
+              <li class="features__item">
+                Research suppliers by tradeshows exhibited, exports, equipment,
+                business credit and more...
+              </li>
+              <li class="features__item">
+                Bookmark and connect to verified suppliers
+              </li>
+              <li class="features__item">
+                Search up to 2,500,000 suppliers
+              </li>
+              <li class="features__item">
+                Recommendation engine to assist in finding best suppliers for
+                your project
+              </li>
+            </ul>
+            <div class="features__member d-flex">
+              <div class="features__member-icon">
+                <img src="~images/form-memb.svg" alt="member" />
+              </div>
+              <div class="features__member-text">
+                <p class="features__member-desc text-left">
+                  “Let’s get one thing straight, this theme’s a straight-up
+                  winner. No posers here, just beautiful design and code.”
+                </p>
+                <a href="#" class="features__member-name text-left">
+                  Daniel Cameron
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+

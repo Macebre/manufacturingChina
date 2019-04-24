@@ -1,0 +1,137 @@
+@import '../../general';
+@import '../../header-nav';
+@import '../../registration';
+@import 'includes/first-desctop';
+@import 'includes/steps';
+@import 'includes/sign-up';
+@import '../buyer/includes/customers';
+@import '../../footer';
+
+//------------------- introducing
+
+.introducing {
+    padding: 4rem 0;
+    background: $bg;
+
+    @media screen and (max-width: 900px) {
+        padding-bottom: 6.05rem;
+    }
+
+    @media screen and (max-width: 640px) {
+        padding: 3rem 0;
+    }
+
+    .introducing__title {
+        margin: 0 auto;
+        color: $title-gray;
+        line-height: 1.29em;
+        font-size: 3em;
+
+        @media screen and (max-width: 1200px) {
+            font-size: 2.25em;
+        }
+
+        @media screen and (max-width: 640px) {
+            font-size: 1.5em;
+        }
+    }
+
+    .introducing__text {
+        margin: 1.5rem auto 2.25rem;
+        width: 500px;
+        line-height: $lh;
+        font-size: 1.2em;
+
+        @media screen and (max-width: 1200px) {
+            margin: 2rem auto 2rem;
+            font-size: 1em;
+        }
+
+        @media screen and (max-width: 640px) {
+            width: 95%;
+            margin: 1.5rem auto;
+        }
+    }
+
+    .introducing__btn {
+        @extend %btn-style;
+
+        display: block;
+        margin: 0 auto;
+        padding: 19px 0;
+        width: 290px;
+        font-size: 1.4em;
+
+        @media screen and (max-width: 1200px) {
+            width: 244px;
+            padding: 16px 0;
+            font-size: 1.1em;
+        }
+    }
+}
+
+.land-customers {
+    padding: 3.5rem 0 4rem;
+
+    @media screen and (max-width: 1200px) {
+        padding: 2rem 0 3rem;
+    }
+
+    @media screen and (max-width: 900px) {
+    }
+
+    @media screen and (max-width: 640px) {
+        padding: 1.5rem 0 3rem;
+    }
+
+    .land-customers__title {
+        @extend %font-regular;
+
+        margin: 0 auto 1rem;
+        line-height: $lh-2;
+        font-size: 3em;
+
+        @media screen and (max-width: 1200px) {
+            font-size: 2 0.25em;
+        }
+
+        @media screen and (max-width: 900px) {
+        }
+
+        @media screen and (max-width: 640px) {
+            font-size: 1.5em;
+        }
+    }
+    margin-right: 0;
+
+    .customers__item {
+        background: none !important;
+        border: none !important;
+
+        .customer__item_photo {
+            @media screen and (max-width: 640px) {
+                margin-bottom: 0.5rem !important;
+            }
+        }
+
+        .customer__item_wrap {
+            margin-top: 0.5rem !important;
+
+            .customer__item_name {
+                @media screen and (max-width: 640px) {
+                    text-align: center;
+                    display: block;
+                }
+            }
+
+            .customer__item_text {
+                margin-right: 0 !important;
+
+                @media screen and (max-width: 640px) {
+                    width: 90%;
+                    margin-right: auto !important;
+                }
+            }
+        }
+    }
+}

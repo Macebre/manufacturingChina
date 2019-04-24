@@ -1,0 +1,48 @@
+<section class="main">
+    <!-- ---------------- -->
+    <!-- <a href="#" class="btn open-modal" data-modal="#modal1">Open Modal</a>
+    <div class="modal" id="modal1">
+        <div class="content">
+            <h1 class="title">This is a modal</h1>
+            <p>
+                Here is some text and stuff. cool cool
+            </p>
+            <a class="btn close-modal" data-modal="#modal1" href="#">K Bye</a>
+        </div>
+    </div> -->
+    <!-- ---------------- -->
+    <div class="container">
+        <div class="main__img d-flex">
+            <img src="~images/logo.png" alt="" />
+        </div>
+        <div class="main__title text-center">
+            <p>Search, bookmark and connect with</p>
+            <a href="#">Verified </a>
+            <span>suppliers</span>
+        </div>
+        <p class="main__name-comp text-center">
+            Company Name, Product, Equipment
+        </p>
+        <form action="#" class="header__form d-flex">
+            <input type="text" placeholder="Search Suppliers" />
+            <ul class="header__form-list">
+                <li class="">
+                    <button type="submit" class="form-list__product">
+                        Search by product
+                    </button>
+                </li>
+                <li class="d-none">
+                    <button type="submit" class="form-list__comp">
+                        Search by company
+                    </button>
+                </li>
+                <li class="d-none">
+                    <button type="submit" class="form-list__equip">
+                        Search by equipment
+                    </button>
+                </li>
+            </ul>
+            ${require('html-loader?interpolate!../views/search/index.html')}
+        </form>
+    </div>
+</section>

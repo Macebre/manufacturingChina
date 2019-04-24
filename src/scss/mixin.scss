@@ -1,0 +1,60 @@
+// Selectors
+// -------------------------------
+
+%text-center {
+    text-align: center;
+}
+
+%text-left {
+    text-align: left;
+}
+
+%font-regular {
+    font-family: 'Raleway-Regular', sans-serif;
+    font-weight: 400;
+}
+
+%font-bold {
+    font-family: 'Raleway-Bold', sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+%d-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+%btn-style {
+    background: #3ecf8e;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 8px;
+    color: #fff;
+}
+
+
+// Variables
+
+// For blocks
+$fd-column: column;
+
+// COLORS
+$bg: #e5e5e5;
+$btn-color-green: #3ecf8e;
+$btn-color-white: #fff;
+$gray-color: #9d9d9d;
+$black-color: #212121;
+$blue-color: #2271bf;
+$title-blue: #00a9e5;
+$title-gray: #262626;
+$shadow: 0 10px 28px rgba(0, 0, 0, 0.25);
+
+// fonts
+$font-regular: 'Raleway-Regular', sans-serif;
+$font-medium: 'Raleway-Medium', sans-serif;
+$lh: 1.55em;
+$lh-2: 1.41em;
+$transition: 0.3s ease-in-out;

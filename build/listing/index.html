@@ -1,0 +1,992 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Listing</title>
+    <meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<!----------------- OG Tags ----------------->
+<meta property="og:title" content="" />
+<meta property="og:description" content="" />
+<meta property="og:type" content="article" />
+<meta property="og:image" content="" />
+<meta property="og:site_name" content="" />
+<link rel="shortcut icon" href="favicon/favicon.ico" />
+
+
+<link href="/1.8248.css" rel="stylesheet"><link href="/5.f364.css" rel="stylesheet"></head>
+<body>
+<!-- SIGN UP -->
+<div class="body-poppup-sign d-none">
+    <div class="popup sign-up">
+        <div class="sign-up__cont poppup__container">
+            <img
+                src="/images/close.16c4.svg"
+                alt="Close"
+                class="create-acc__close close"
+            />
+            <h3 class="sign-up__title poppup__title">Sign Up</h3>
+            <a href="#" class="sign-up__btn-one poppup__btn">Buyer</a>
+            <p class="sign-up__text poppup__text text-center">or</p>
+            <a href="#" class="sign-up__btn-two poppup__btn poppup__btn-last"
+                >Supplier</a
+            >
+        </div>
+    </div>
+</div>
+
+<!-- SIGN UP with Accounts -->
+<div class="body-poppup-sign-acc d-none">
+    <div class="popup sign-acc">
+        <div class="sign-acc__wrap poppup__container">
+            <img
+                src="/images/close.16c4.svg"
+                alt="Close"
+                class="create-acc__close close"
+            />
+            <h3 class="sign-acc__title poppup__title">Sign Up</h3>
+            <ul class="sign-acc__items">
+                <li class="sign-acc__item btn-lnkdn d-flex">
+                    <img src="/images/LinkedIn.a7d3.svg" alt="Linkedin" />
+                    <a class="sign-acc__btn poppup__btn"
+                        >Continue with Linkedin</a
+                    >
+                </li>
+                <li class="sign-acc__item btn-goo d-flex">
+                    <img src="/images/google.0274.svg" alt="Google" />
+                    <a class="sign-acc__btn poppup__btn"
+                        >Continue with Google</a
+                    >
+                </li>
+                <li class="sign-acc__item btn-chat d-flex">
+                    <img src="/images/wechat.a859.svg" alt="Wechat" />
+                    <a class="sign-acc__btn poppup__btn"
+                        >Continue with Wechat</a
+                    >
+                </li>
+                <li class="sign-acc__item btn-baidu d-flex">
+                    <img src="/images/baidu.21b1.svg" alt="Baidu" />
+                    <a class="sign-acc__btn poppup__btn">Continue with Baidu</a>
+                </li>
+                <li class="sign-acc__item poppup__text d-flex">
+                    or
+                </li>
+                <li class="sign-acc__item btn-email d-flex">
+                    <img src="/images/email.eaaa.svg" alt="Email" />
+                    <a class="sign-acc__btn poppup__btn">Sign up with email</a>
+                </li>
+                <li class="sign-acc__item d-flex sign-acc__sign-in">
+                    <a href="#" class="poppup-sign-in">Sign in</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<!-- SIGN IN  with Accounts -->
+<div class="body-poppup-sign-in  d-none">
+    <div class="popup sign-in">
+        <div class="sign-in__wrap poppup__container">
+            <img
+                src="/images/close.16c4.svg"
+                alt="Close"
+                class="create-acc__close close"
+            />
+            <h3 class="sign-in__title poppup__title">Sign In</h3>
+            <ul class="sign-in__items">
+                <li class="sign-in__item btn-lnkdn d-flex">
+                    <img src="/images/LinkedIn.a7d3.svg" alt="Linkedin" />
+                    <a class="sign-in__btn poppup__btn btn-lnkdn"
+                        >Continue with Linkedin</a
+                    >
+                </li>
+                <li class="sign-in__item btn-goo d-flex">
+                    <img src="/images/google.0274.svg" alt="Google" />
+                    <a class="sign-in__btn poppup__btn btn-goo"
+                        >Continue with Google</a
+                    >
+                </li>
+                <li class="sign-in__item btn-chat d-flex">
+                    <img src="/images/wechat.a859.svg" alt="Wechat" />
+                    <a class="sign-in__btn poppup__btn btn-chat"
+                        >Continue with Wechat</a
+                    >
+                </li>
+                <li class="sign-in__item btn-baidu d-flex">
+                    <img src="/images/baidu.21b1.svg" alt="Baidu" />
+                    <a class="sign-in__btn poppup__btn btn-baidu"
+                        >Continue with Baidu</a
+                    >
+                </li>
+                <li class="sign-in__item poppup__text d-flex">
+                    or
+                </li>
+            </ul>
+            <form class="sign-in__form  poppup__form">
+                <p class="poppup__form-text">Email adress</p>
+                <input
+                    type="email"
+                    class="poppup__form-input"
+                    placeholder="Enter Email"
+                />
+                <p class="poppup__form-text">Password</p>
+                <input
+                    type="password"
+                    class="poppup__form-input"
+                    placeholder="Enter Password"
+                />
+                <div class="poppup__form-wrap d-flex">
+                    <input type="checkbox" class="poppup__form-check" />
+                    <a href="#" class="poppup__form-check-text">
+                        Remember me
+                    </a>
+                    <a href="#" class="poppup__form-forgot">
+                        Forgot Password?
+                    </a>
+                </div>
+                <a
+                    href="#"
+                    class="poppup__form-submit poppup__btn"
+                    type="submit"
+                    >Submin</a
+                >
+                <a href="#" class="poppup-sign-in poppup__form-sign-up">Sign Up</a>
+            </form>
+        </div>
+    </div>
+</div>
+
+<!-- PASSWORD -->
+<div class="body-poppup-pass d-none">
+    <div class="popup sign-pass">
+        <div class="sign-pass__wrap poppup__container">
+            <img
+                src="/images/close.16c4.svg"
+                alt="Close"
+                class="sign-pass__close close"
+            />
+            <h3 class="sign-pass__title poppup__title">Forgot Password</h3>
+            <form class="sign-pass__form poppup__form">
+                <p class="poppup__form-text">Email adress</p>
+                <input
+                    type="email"
+                    class="poppup__form-input  input-mail"
+                    placeholder="Enter Email"
+                />
+                <p class="sign-pass__error text-left d-none">
+                    Email address not found.
+                </p>
+                <a href="#" class="sign-pass__subm poppup__btn" type="submit"
+                    >Submin</a
+                >
+                <a href="#" class="sign-pass__up poppup-sign-in">Sign In</a>
+            </form>
+        </div>
+    </div>
+</div>
+
+<!-- BOOKMARK -->
+<div class="body-poppup-bookmark d-none">
+    <div class="popup bookmark">
+        <div class="bookmark__wrap poppup__container">
+            <img
+                src="/images/close.16c4.svg"
+                alt="Close"
+                class="bookmark__close close"
+            />
+            <img
+                src="/images/marc.4b2b.svg"
+                class="bookmark__img poppup__img"
+                alt="Mark"
+            />
+            <h3 class="bookmark__title poppup__title">Bookmark</h3>
+            <p class="bookmark__added text-center">
+                Added:
+                <span>(</span>
+                <span class="bookmark__numb">15564</span>
+                <span>)</span>
+            </p>
+            <form class="bookmark__form poppup__form">
+                <p class="poppup__form-text">Email adress</p>
+                <input
+                    type="email"
+                    class="poppup__form-input"
+                    placeholder="Enter Email"
+                />
+                <a href="#" class="bookmark__subm poppup__btn" type="submit"
+                    >Submin</a
+                >
+            </form>
+        </div>
+    </div>
+</div>
+
+<!-- QR CODE  -->
+<div class="body-poppup-qr d-none">
+    <div class="popup qr">
+        <div class="qr__wrap poppup__container">
+            <img
+                src="/images/close.16c4.svg"
+                alt="Close"
+                class="qr__close close"
+            />
+            <img
+                src="/images/qr-code.1b22.svg"
+                class="qr__img poppup__img"
+                alt="Mark"
+            />
+            <h3 class="qr__title poppup__title">QR code</h3>
+            <p class="qr__added text-center">
+                Scanned:
+                <span>(</span>
+                <span class="qr__numb">15564</span>
+                <span>)</span>
+            </p>
+            <p class="qr__text text-center">
+               Shaanxi Dacheng International Trade Co Limited
+            </p>
+            <img
+                src="/images/qr-code-big.def1.svg"
+                class="qr__img-big"
+                alt="Mark"
+            />
+        </div>
+    </div>
+</div>
+    
+<header class="header" id="header">
+  <div class="container">
+    <div class="header__wrap d-flex">
+      <div class="header__logo d-flex">
+        <a href="#">
+          <img src="/images/logo.fa08.png" alt="Manufacturing China"/>
+        </a>
+        <p>Manufacturing China</p>
+      </div>
+      <nav class="d-flex">
+        <div class="menuToggle"> 
+          <img src="/images/close2.f9e5.svg" class="menuToggle__close"></img>
+          <img src="/images/burger.51be.svg" alt="Menu" />
+        </div>
+        <ul class="nav menu d-flex"> 
+          <div class="item__wrap-log d-none">
+              <img class="nav-item__logo" src="/images/logo.fa08.png" alt="Logo">
+          </div>
+          <li class="nav-item">
+            <button
+              href="#"
+              target="_blank"
+              data-toggle="modal"
+              data-target="#exampleModalCenter"
+              rel="noopener noreferrer"
+              class="btn-green nav-link btn btn-primary"
+            >
+              Create free account
+            </button>
+          </li>
+          <li class="nav-item">
+            <button
+              href="http://#"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="nav-link btn-white"
+            >
+              Login
+            </button>
+          </li>
+        </ul>
+      </nav>
+      <ul class="header__multilanguage d-flex">
+        <li class="multilanguage-item multilanguage-item-current multilanguage-item_en text-center">
+            <a href="#">En</a>
+        </li>
+        <li class="multilanguage-item multilanguage-item_ru d-none text-center">
+          <a href="#">Ru</a>
+        </li>
+        <li class="multilanguage-item multilanguage-item_Is d-none text-center">
+          <a href="#">Is</a>
+        </li>
+        <li class="multilanguage-item multilanguage-item_De d-none text-center">
+          <a href="#">De</a>
+        </li>
+        <li class="multilanguage-item multilanguage-item_Fr d-none text-center">
+          <a href="#">Fr</a>
+        </li>
+      </ul>
+    </div>
+    <!-- Arctic Modal-------------------------------------------->
+    <div
+      class="create-acc modal fade d-none"
+      id="exampleModalCenter"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="exampleModalCenterTitle"
+      aria-hidden="true"
+    >
+      <div class="create-acc__wrap d-flex">
+        <form action="#" class="create-acc__reg d-flex form">
+          <img
+            src="/images/close.16c4.svg"
+            alt="Close"
+            class="create-acc__close close d-none"
+          />
+          <div class="create-acc__container text-left">
+            <h3 class="create-acc__title text-center">
+              Start creating immediately
+            </h3>
+            <p class="create-acc__under text-center">
+              Search and connect with qualified suppliers in China
+            </p>
+            <p class="form__titles create-acc__company">Company Name</p>
+            <input
+              type="text"
+              class="form__input form__company"
+              name="text"
+              placeholder="Enter Company Name"
+              required
+            />
+            <div class="create-acc__name-wrap d-flex">
+              <div class="create-acc__name">
+                <p class="form__titles form__text-name">
+                  First Name
+                </p>
+                <input
+                  type="text"
+                  class="form__input form__name"
+                  name="text"
+                  placeholder="Enter First Name"
+                  required
+                />
+              </div>
+              <div class="create-acc__name-last">
+                <p class="form__text-name">
+                  Last Name
+                </p>
+                <input
+                  type="text"
+                  class="form__input form__name-last"
+                  name="text"
+                  placeholder="Enter Last Name"
+                  required
+                />
+              </div>
+            </div>
+            <p class="form__titles create-acc__mail">
+              Email Addres
+            </p>
+            <input
+              type="email"
+              class="form__input form__mail"
+              name="email"
+              placeholder="Enter Email Adress"
+              required
+            />
+            <p class="form__titles create-acc__pass">
+              Password
+            </p>
+            <input
+              type="password"
+              class="form__input form__pass"
+              name="password"
+              placeholder="Enter Password"
+              required
+            />
+            <p class="form__titles create-acc__check">
+              Password must be at least 7 characters
+            </p>
+            <button class="form__btn" type="submit">Create Account</button>
+            <p class="create-acc__agree text-center">
+              By clicking 'Create Account' you agree to our
+              <a href="#" class="create-acc__agree-link"
+                >Terms, Privacy Policy</a
+              >
+              and
+              <a href="#" class="create-acc__agree-linktwo">Security Policy</a>
+            </p>
+          </div>
+        </form>
+        <!-- ---------------------FEATURES =--------------->
+        <div class="features">
+          <div class="features__container">
+            <img
+              src="/images/close.16c4.svg"
+              alt="Close"
+              class="features__close close"
+            />
+            <h3 class="features__title text-center">Features & Benefits</h3>
+            <p class="features__under-tit text-center">
+              Get unlimited free access to curated and verified suppliers in
+              China
+            </p>
+            <ul class="features__items">
+              <li class="features__item">
+                Research suppliers by tradeshows exhibited, exports, equipment,
+                business credit and more...
+              </li>
+              <li class="features__item">
+                Bookmark and connect to verified suppliers
+              </li>
+              <li class="features__item">
+                Search up to 2,500,000 suppliers
+              </li>
+              <li class="features__item">
+                Recommendation engine to assist in finding best suppliers for
+                your project
+              </li>
+            </ul>
+            <div class="features__member d-flex">
+              <div class="features__member-icon">
+                <img src="/images/form-memb.a15e.svg" alt="member" />
+              </div>
+              <div class="features__member-text">
+                <p class="features__member-desc text-left">
+                  “Let’s get one thing straight, this theme’s a straight-up
+                  winner. No posers here, just beautiful design and code.”
+                </p>
+                <a href="#" class="features__member-name text-left">
+                  Daniel Cameron
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+
+<section class="description" id="description">
+    <div class="container">
+        <div class="description__wrap d-flex">
+            <div class="img">
+                <img src="/images/Ellipse.9037.jpg" alt="">
+            </div>
+            <h1 class="description__title">
+                Shaanxi Dacheng International Trade Co Limited
+            </h1>
+            <a href="#" class="description__verified" title="Verified">
+                <span>Verified</span>
+            </a>
+            <p class="description__text">
+                Lorem ipsum dolor sit amet, luctus libero ullamcorper, voluptas in,
+                sit feugiat suspendisse vestibulum et imperdiet maecenas. Sed hendrerit
+                urna lacus, volutpat mauris, praesent sapien, pellentesque est convallis
+                nullam vestibulum,
+                id etiam pulvinar nisl suspendisse sed ultricies.
+            </p>
+            <div class="description__btns d-flex">
+                <a href="#" class="description__btn description__btn-blue d-flex">
+                    <p>Bookmark (
+                        <span>524</span>)
+                    </p>
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- ------------------------------companies 
+----------------------------------------------->
+<!-- <section class="companies d-none">
+    <div class="container">
+        <div class="companies__wrap">
+            <div class="companies__item">
+                <a href="#" class="companies__img">
+                    <img src="/images/img-companies.4fb6.svg" alt="Shaanxi Cathay Import And Export Corporation">
+                </a>
+                <a href="#" class="companies__title">
+                    <h3>Shaanxi Cathay Import And Export Corporation</h3>
+                </a>
+                <p class="companies__text">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                </p>
+                <a href="#" class="companies__btn">Similar</a>
+            </div>
+            <div class="companies__item">
+                <a href="#" class="companies__img">
+                    <img src="/images/img-companies2.ddd9.svg" alt="Saame Tools (Shanghai) Import & Export Co Limited">
+                </a>
+                <a href="#" class="companies__title">
+                    <h3>Saame Tools (Shanghai) Import & Export Co Limited</h3>
+                </a>
+                <p class="companies__text">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                </p>
+                <a href="#" class="companies__btn">Verified</a>
+            </div>
+            <div class="companies__item">
+                <a href="#" class="companies__img">
+                    <img src="/images/img-companies3.e011.jpg" alt="Bada Dress (Fujian) Co Limited">
+                </a>
+                <a href="#" class="companies__title">
+                    <h3>Bada Dress (Fujian) Co Limited</h3>
+                </a>
+                <p class="companies__text">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                </p>
+                <a href="#" class="companies__btn">Similar</a>
+            </div>
+        </div>
+    </div>
+</section> -->
+
+<section id="carousel" class="carousel">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <h2 class="section-title">
+                        А еще, вот такие
+                    </h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12 m-auto ">
+                    <div class="car-slider d-flex">
+                        <div class="car-slider__item w-100">
+                            <img src="/images/reviews.0d82.svg" alt="Slide mini" class="w-100">
+                     </div>
+                        <div class="car-slider__item w-100">
+                            <img src="/images/reviews.0d82.svg" alt="Slide mini" class="w-100">
+                          </div>
+                        <div class="car-slider__item w-100">
+                            <img src="/images/reviews.0d82.svg" alt="Slide mini" class="w-100">
+                        </div>
+                        <div class="car-slider__item w-100">
+                            <img src="/images/reviews.0d82.svg" alt="Slide mini" class="w-100">
+                         </div>
+                        <div class="car-slider__item w-100">
+                            <img src="/images/reviews.0d82.svg" alt="Slide mini" class="w-100">
+                        </div>
+                        <div class="car-slider__item w-100">
+                            <img src="/images/reviews.0d82.svg" alt="Slide mini" class="w-100">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+<!-- <div class="container-fluid">
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li class="active" data-target="#carouselExampleIndicators" data-slide-to="0">
+                    <img src="/images/reviews.0d82.svg" alt="">
+            </li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1">
+                    <img src="/images/credit.5e49.svg" alt="">
+            </li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2">
+                    <img src="/images/reviews.0d82.svg" alt="">
+            </li>
+        </ol>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="/images/reviews.0d82.svg" alt="" class="d-block w-100">
+            </div>
+            <div class="carousel-item">
+                <img src="/images/reviews.0d82.svg" alt="" class="d-block w-100">
+            </div>
+            <div class="carousel-item">
+                    <img src="/images/reviews.0d82.svg" alt="" class="d-block w-100">
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators"
+         role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only"></span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators"
+         role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only"></span>
+        </a>
+    </div>
+</div> -->
+<!-- ------------------------------services 
+----------------------------------------------->
+<section class="services">
+    <div class="container">
+        <div id="carouselExampleIndicators" class="services__wrap services-slider d-flex carousel slide" data-ride="carousel">
+            
+            <div class="services__items d-flex">
+                <a href="#" class="services__img-link">
+                    <img src="/images/reviews.0d82.svg" alt="">
+                </a>
+                <a href="#" class="services__link-title">
+                    <h2 class="services__title">Reviews & <br> Recommendations</h2>
+                </a>
+                <p class="services__text">
+                    View the latest business credit report data on Saame
+                    Tools (Shaanxi)Import & Export Co Limited
+                </p>
+                <a href="#" class="services__btn d-flex">
+                    <p>Reviews
+                        <span class="btn__numb">9</span>
+                    </p>
+                </a>
+            </div>
+            <div class="services__items d-flex">
+                <a href="#"  class="services__img-link">
+                    <img src="/images/credit.5e49.svg" alt="">
+                </a>
+                <a href="#" class="services__link-title">
+                    <h2 class="services__title services__title-two">Free Business Credit Report</h2>
+                </a>
+                <p class="services__text">View the latest business credit report data on
+                    Saame Tools (Shaanxi)Import & Export Co Limited
+                </p>
+                <a href="#" class="services__btn d-flex">
+                    <p class="btn__text-two">Download
+                        <span></span>
+                    </p>
+                </a>
+            </div>
+            <div class="services__items d-flex">
+                <a href="#"  class="services__img-link">
+                    <img src="/images/exports.dbf5.svg" alt="">
+                </a>
+                <a href="#" class="services__link-title">
+                    <h2 class="services__title services__title-three">Products, Equipment & Exports</h2>
+                </a>
+                <p class="services__text">Research supplier capabilities and export history</p>
+                <a href="#" class="services__btn d-flex">
+                    <p class="btn__text-last">Dig Deeper</p>
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+<footer>
+    <div class="footer-container">
+        <ul class="addr d-flex">
+            <li>
+                <a href="http://#" target="_blank" rel="noopener noreferrer"
+                    >Verified >>
+                </a>
+            </li>
+            <li>
+                <a href="http://#" target="_blank" rel="noopener noreferrer"
+                    >Trusted Manufacturing</a
+                >
+            </li>
+        </ul>
+        <div class="footer__nav">
+            <div class="accordion d-flex">
+                <div class="accordion-wrap accordion-wrap-one">
+                    <div class="accordion-header ui-accordion-header">
+                        <h4 class="accordion__title accordion__title-one">
+                            Search China Suppliers Tradeshow
+                            <span class="d-none">>></span>
+                        </h4>
+                    </div>
+                    <div class="accordion-my accordion-content">
+                        <ul class="accordion__items accordion__items-one">
+                            <li>
+                                <a
+                                    href="http://#"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    >Consumer Electronics Show (CES)</a
+                                >
+                            </li>
+                            <li>
+                                <a
+                                    href="http://#"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    >AHR Expo</a
+                                >
+                            </li>
+                            <li>
+                                <a
+                                    href="http://#"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    >Canton Fair</a
+                                >
+                            </li>
+                            <li>
+                                <a
+                                    href="http://#"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    >American International Tradefair</a
+                                >
+                            </li>
+                            <li>
+                                <a
+                                    href="http://#"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    >International Housewares</a
+                                >
+                            </li>
+                            <li>
+                                <a
+                                    href="http://#"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    >International Security Conference West</a
+                                >
+                            </li>
+                            <li>
+                                <a
+                                    href="http://#"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    >American International Tradefair</a
+                                >
+                            </li>
+                            <li>
+                                <a
+                                    href="http://#"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    >National Hardware Show</a
+                                >
+                            </li>
+                            <li>
+                                <a
+                                    href="http://#"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    >National Restaurant Show</a
+                                >
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="accordion-wrap accordion-wrap-two">
+                    <div class="accordion-header">
+                        <h4 class="accordion__title accordion__title-two">
+                            Search China Manufacturers City
+                            <span class="d-none">>></span>
+                        </h4>
+                    </div>
+                    <div class="accordion-my accordion-content">
+                        <ul class="accordion__items accordion__items-two">
+                            <li>
+                                <a
+                                    href="http://#"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    >Fuzhou</a
+                                >
+                            </li>
+                            <li>
+                                <a
+                                    href="http://#"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    >Guangzhou</a
+                                >
+                            </li>
+                            <li>
+                                <a
+                                    href="http://#"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    >Hangzhou</a
+                                >
+                            </li>
+                            <li>
+                                <a
+                                    href="http://#"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    >Suzhou</a
+                                >
+                            </li>
+                            <li>
+                                <a
+                                    href="http://#"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    >Wuxi</a
+                                >
+                            </li>
+                            <li>
+                                <a
+                                    href="http://#"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    >Shenzhen</a
+                                >
+                            </li>
+                            <li>
+                                <a
+                                    href="http://#"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    >Ningbo</a
+                                >
+                            </li>
+                            <li>
+                                <a
+                                    href="http://#"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    >Beijing</a
+                                >
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="accordion-wrap accordion-wrap-three">
+                    <div class="accordion-header">
+                        <h4 class="accordion__title accordion__title-three">
+                            China Manufacturers
+                            <span class="d-none">>></span>
+                        </h4>
+                    </div>
+                    <div class="accordion-my accordion-content">
+                        <ul class="accordion__items accordion__items-third">
+                            <li>
+                                <a
+                                    href="http://#"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                >
+                                    China Sewing Factories
+                                </a>
+                            </li>
+                            <li>
+                                <a
+                                    href="http://#"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                >
+                                    China Plastic Injection
+                                </a>
+                            </li>
+                            <li>
+                                <a
+                                    href="http://#"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                >
+                                    China CNC Manufacturers
+                                </a>
+                            </li>
+                            <li>
+                                <a
+                                    href="http://#"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                >
+                                    China Electronics Manufacturers
+                                </a>
+                            </li>
+                            <li>
+                                <a
+                                    href="http://#"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                >
+                                    PCB Suppliers in China
+                                </a>
+                            </li>
+                            <li>
+                                <a
+                                    href="http://#"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                >
+                                    Consumer Goods Manufacturers
+                                </a>
+                            </li>
+                            <li>
+                                <a
+                                    href="http://#"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                >
+                                    Sporting Goods Manufacturers
+                                </a>
+                            </li>
+                            <li>
+                                <a
+                                    href="http://#"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                >
+                                    China Toy Manufacturers
+                                </a>
+                            </li>
+                            <li>
+                                <a
+                                    href="http://#"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                >
+                                    China Hardware Manufacturers
+                                </a>
+                            </li>
+                            <li>
+                                <a
+                                    href="http://#"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                >
+                                    Led Lighting Manufacturers
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="accordion-wrap accordion-wrap-four">
+                    <div class="accordion-header">
+                        <h4 class="accordion__title accordion__title-four">
+                            Company
+                            <span class="d-none">>></span>
+                        </h4>
+                    </div>
+                    <div class="accordion-my accordion-content">
+                        <ul class="accordion__items accordion__items-four">
+                            <li>
+                                <a
+                                    href="http://#"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                >
+                                    About company
+                                </a>
+                            </li>
+                            <li>
+                                <a
+                                    href="http://#"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                >
+                                    History
+                                </a>
+                            </li>
+                            <li>
+                                <a
+                                    href="http://#"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                >
+                                    Team
+                                </a>
+                            </li>
+                            <li>
+                                <a
+                                    href="http://#"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                >
+                                    Investment
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+<!----------------------FONT AWESOME=----------------- -->
+<script type="text/javascript" src="/manifest.8f79.js"></script><script type="text/javascript" src="/vendors.e53f.js"></script><script type="text/javascript" src="/babel.2ce1.js"></script><script type="text/javascript" src="/listing.56e5.js"></script></body>
+</html>

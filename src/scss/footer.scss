@@ -1,0 +1,321 @@
+footer {
+  background: #f6f9fc;
+  border-top: 2px solid rgba(0, 0, 0, 0.1);
+
+  .footer-container {
+    max-width: 1300px;
+    margin: 0 auto;
+
+    @media screen and (max-width: 1400px) {
+      max-width: 1200px;
+    }
+
+    @media screen and (max-width: 1300px) {
+      max-width: 1120px;
+    }
+
+    @media screen and (max-width: 1200px) {
+      max-width: 970px;
+    }
+
+    @media screen and (max-width: 1020px) {
+      max-width: 80%;
+    }
+
+    .addr {
+      margin: 0 0 30px 0;
+
+      @media screen and (max-width: 1600px) {
+        margin-left: 1vw;
+      }
+
+      @media screen and (max-width: 1200px) {
+        margin-bottom: 25px;
+      }
+
+      @media screen and (max-width: 1020px) {
+        margin-left: 0;
+      }
+
+      @media screen and (max-width: 640px) {
+        margin-bottom: 0;
+      }
+
+      li {
+        display: inline-block;
+        margin: 40px 5px 0 0;
+        list-style-type: none !important;
+        vertical-align: bottom;
+
+        @media screen and (max-width: 760px) {
+          margin-top: 30px;
+        }
+
+        a {
+          color: $gray-color;
+          text-decoration: none;
+          display: block;
+          font-size: 16px;
+
+          @media screen and (max-width: 760px) {
+            font-size: 14px;
+          }
+        }
+      }
+    }
+
+    .accordion {
+      width: 100%;
+
+      @media screen and (max-width: 1400px) {
+        justify-content: space-around;
+      }
+
+      @media screen and (max-width: 1020px) {
+        flex-wrap: wrap;
+      }
+
+      @media screen and (max-width: 760px) {
+        padding-bottom: 45px;
+        width: 80vw;
+        flex-direction: column;
+        margin-top: 20px;
+      }
+
+      .accordion-header {
+        color: #2a313a;
+        font-weight: 700;
+        padding-top: 1.5rem;
+
+        @media screen and (max-width: 1600px) {
+          padding-top: 1.5rem;
+        }
+
+        @media screen and (max-width: 1020px) {
+          padding: 0;
+        }
+
+        @media screen and (max-width: 760px) {
+          width: 100%;
+        }
+
+        @media screen and (max-width: 640px) {
+          width: 100%;
+          padding: 0;
+        }
+
+        .accordion__title {
+          margin-bottom: 30px;
+          position: relative;
+          font-family: 'Raleway-Bold', sans-serif;
+          font-size: 22px;
+          color: $title-blue;
+
+          @media screen and (max-width: 1200px) {
+            margin-bottom: 0;
+          }
+
+          @media screen and (max-width: 760px) {
+            font-size: 16px;
+            margin-bottom: 0;
+            transition: $transition;
+            text-align: left;
+
+            span {
+              display: block;
+              position: absolute;
+              top: 0;
+              right: -.5em;
+              font-size: 20px;
+              letter-spacing: -.5em;
+              text-shadow: -0.5px 0px 0;
+            }
+          }
+        }
+
+        .accordion__title-one {
+          width: 230px;
+
+          @media screen and (max-width: 760px) {
+            width: auto; 
+          }
+        }
+
+        .accordion__title-two {
+          width: 210px;
+
+          @media screen and (max-width: 760px) {
+            width: auto; 
+          }
+        }
+      }
+  
+      .accordion__title-four {
+        width: auto;
+        
+        @media screen and (max-width: 1200px) {
+          padding-top: 3rem;
+        }
+
+        @media screen and (max-width: 1020px) {
+          padding-top: 0;
+        }
+      }
+  
+      .accordion-my {
+        display: block;
+        background: #f6f7f9;
+        padding: 1.5rem 1.5rem 1.5rem 2.5rem;
+        color: #4a5666;
+  
+        @media screen and (max-width: 760px) {
+          display: none;
+          margin-left: 20px;
+        }
+      }
+  
+      .accordion__items {
+        margin-left: -40px;
+
+        li {
+          list-style-type: none;
+          transition: $transition;
+
+          &:hover {
+            padding-left: 3px;
+            font-style: italic;
+          }
+
+          a {
+            line-height: 28px;
+            font-size: 16px;
+            color: #313131;
+            opacity: 0.6;
+            text-decoration: none;
+          }
+        }
+      }
+
+      .accordion-wrap-one {
+        width: 31vw;
+
+        @media screen and (max-width: 1400px) {
+          margin: 0;
+          width: 29vw;
+        }
+
+        @media screen and (max-width: 1040px) {
+          width: 30vw;
+        }
+
+        @media screen and (max-width: 1020px) {
+          width: 60%;
+        }
+
+        @media screen and (max-width: 760px) {
+          width: 100vw;
+        }
+      }
+
+      .accordion-wrap-two {
+        width: 24vw;
+
+        @media screen and (max-width: 1400px) {
+          width: 15vw;
+        }
+
+        @media screen and (max-width: 1300px) {
+          width: 21vw;
+        }
+
+        @media screen and (max-width: 1020px) {
+          width: 15vw !important;
+        }
+
+        @media screen and (max-width: 760px) {
+          width: 100vw;
+        }
+      }
+
+      .accordion-wrap-three {
+        width: 28vw;
+
+        @media screen and (max-width: 1400px) {
+          width: 20vw;
+        }
+
+        @media screen and (max-width: 1300px) {
+          width: 24vw;
+        }
+
+        @media screen and (max-width: 1200px) {
+          
+        }
+
+        @media screen and (max-width: 760px) {
+          width: 100vw;
+        }
+
+        .accordion-header {
+          padding: 3rem 0 0 0;
+
+          @media screen and (max-width: 1020px) {
+            padding-top: 0;
+          }
+        }
+      }
+
+      .accordion-wrap-four {
+        width: 10vw;
+
+        @media screen and (max-width: 1400px) {
+          width: 10vw;
+          margin-right: 0;
+        }
+
+        @media screen and (max-width: 1200px) {
+          width: 9vw;
+        }
+
+        @media screen and (max-width: 1020px) {
+          width: 15vw !important;
+        }
+
+        @media screen and (max-width: 760px) {
+          width: 100vw;
+        }
+
+        .accordion-header {
+          padding: 3rem 0 0 0;
+
+          @media screen and (max-width: 1200px) {
+            
+          }
+
+          @media screen and (max-width: 1200px) {
+            padding: 0;
+          }
+        }
+      }
+
+        .accordion-wrap {
+          @media (min-width:760px) and (max-width: 1400px) {
+            margin-right: 2vw;
+          }
+
+          @media (min-width:760px) and (max-width: 1020px) {
+            width: 50%;
+            margin-right: auto;
+          }
+
+          @media screen and (max-width: 1200px) {
+            margin-bottom: 30px;
+          }
+
+          @media screen and (max-width: 760px) {
+            width: 100% !important;
+          }
+        }
+      }
+    }
+  }
